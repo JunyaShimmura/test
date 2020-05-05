@@ -1,0 +1,119 @@
+
+html, body{
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+
+}
+ 
+.header{
+    width: 100%;
+    padding: 20px.50px;
+    height: 70px;
+
+
+}
+.logo {
+    float: left;
+    font-size: x-large;
+}
+
+.nav-list li{
+    list-style: none;
+    float: right;
+    letter-spacing: 2px;
+    padding-right: 10px;
+  
+}
+.nav-list ul{
+    
+
+}
+.main{
+    width: 100%;
+
+    background: url(img/main-vsual-nontitle.png);
+    
+}
+.containor{
+    color: black;
+}
+
+.main h2{
+    margin: auto;
+    text-align: center;
+    padding: 20px 20px;
+ 
+    font-size: 50px;
+}
+.main p{
+    margin: auto;
+ 
+}
+h3{
+    font-size: 30px;
+    margin: 20px.0;
+}
+img {
+    width: 70%;
+    margin: 30px auto;
+}
+.course{
+    width: 100%;
+}
+h4{
+    font-size: 30px;
+    margin-top: 50px 0;
+}
+.row{
+    display: flex;
+    text-align: center;
+    margin: 0 50px;
+}
+
+.col{
+    flex: 1;
+    margin: 0 30px;
+}
+.col img{
+    width: 100%;
+}
+footer{
+    margin: 50px 0 50px 0;
+}
+.containor{
+    width: 100%;
+
+}
+.course containor{
+    margin-top: 90px;
+}
+h5{
+    font-size: 40px;
+}
+@media(max-width: 800px) 
+ {
+
+    .nav-list{
+        display: none;
+    }
+
+    .course{
+        width: 100%;
+    }
+    h4{
+        font-size: 30px;
+        margin-top: 50px 0;
+    }
+    .row{
+        width: 100%;
+        flex-direction: column;
+        margin: auto;
+
+    }
+    
+   
+    
+
+
+}
